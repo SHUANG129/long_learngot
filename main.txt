@@ -1,0 +1,10 @@
+#include "stm32f10x.h"
+void main(void)
+{
+    Sysinit_Config();
+	Bsp_init();
+	while(1)
+	{
+	    
+	}
+}
